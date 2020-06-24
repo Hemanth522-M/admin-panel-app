@@ -1,0 +1,122 @@
+/* Header Css */
+.main-div {
+    width: 80%;
+    border: 0.2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.header {
+    width: 80%;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#image {
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    color: white;
+}
+
+.user-name {
+    float: right;
+}
+
+/* Navigation css */
+
+.navigate {
+    width: 10%;
+    height: 500px;
+    background-color: #817e7e;
+}
+
+.icons {
+    display: grid;
+}
+
+/* Body css */
+
+#paper {
+    background-color: #efe9e9;
+    height: 405px;
+    padding: 10px;
+}
+
+#tabs {
+    text-transform: capitalize;
+}
+
+/* User Profile css */
+
+.user-profile {
+    background-color: white;
+    height: 160px;
+    padding: 20px;
+}
+
+#button {
+    float: right;
+    text-transform: capitalize;
+}
+
+.error {
+    color: red;
+}
+
+.MuiTableContainer-root {
+    width: 100%;
+    overflow-x: auto;
+    height: 278px;
+}
+
+/* Media queries for responsiveness */
+
+@media (min-width: 320px) and (max-width: 420px) {
+    .main-div {
+        width: 80%;
+        border: 0.2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .navigate {
+        background-color: #817e7e;
+        width: auto;
+        height: auto;
+    }
+
+    .icons {
+        display: inline;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .user-profile {
+        background-color: white;
+        height: 250px;
+        padding: 20px;
+    }
+}
